@@ -1,4 +1,4 @@
-# Breve explicación sobre la injeccion de dependencias en spring.
+# Breve explicación sobre la inyeccion de dependencias en spring.
 
 
 Esto es una breve explicación de como funciona y en que consiste el patron Dependency injection(inyección de dependencias)
