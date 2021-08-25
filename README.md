@@ -25,6 +25,7 @@ _Nota: El ejercicio en ambas carpetas tiene la misma estructura y misma funciona
 Específicamente la manera en la que se ejemplifica la inyección de dependencias en el ejercicio se puede ver a mas detalle en los siguientes archivos:
 
 **Inyeccion de dependencias, Haciendo uso de la anotacion @Autowired que spring proporciona para este fin.**
+
 [ejercicio_con_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_con_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
 
 ```java
@@ -102,6 +103,7 @@ public class StudentController {
 De lo anterior nos podemos fijar exclusivamente en los siguientes fragmentos de código de ambos archivos.
 
 Con inyeccion de dependencias
+
 [ejercicio_con_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_con_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
 
 ```java
@@ -113,6 +115,7 @@ Con inyeccion de dependencias
 ```
 
 Sin inyeccion de dependencias
+
 [ejercicio_sin_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java  ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_sin_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
 
 ```java
