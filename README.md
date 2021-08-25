@@ -25,7 +25,8 @@ _Nota: El ejercicio en ambas carpetas tiene la misma estructura y misma funciona
 Específicamente la manera en la que se ejemplifica la inyección de dependencias en el ejercicio se puede ver a mas detalle en los siguientes archivos:
 
 **Inyeccion de dependencias, Haciendo uso de la anotacion @Autowired que spring proporciona para este fin.**
-#### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
+[ejercicio_con_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_con_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
+
 ```java
 public class StudentController {
     
@@ -60,7 +61,7 @@ public class StudentController {
 
 **Inyeccion de dependencias manual**
 
-#### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
+[ejercicio_sin_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java  ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_sin_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
 
 ```java
 public class StudentController {
@@ -100,7 +101,9 @@ public class StudentController {
 
 De lo anterior nos podemos fijar exclusivamente en los siguientes fragmentos de código de ambos archivos.
 
-#### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
+Con inyeccion de dependencias
+[ejercicio_con_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_con_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
+
 ```java
 
 //Uso de la inyeccion de dependencias
@@ -109,8 +112,9 @@ De lo anterior nos podemos fijar exclusivamente en los siguientes fragmentos de 
 
 ```
 
+Sin inyeccion de dependencias
+[ejercicio_sin_injecccion_de _dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java  ](https://github.com/josemigueltr/spring_dependency_injection/blob/main/ejercicio_sin_injecccion_de%20_dependencias/student-services/src/main/java/com/apirest/studentservices/controller/StudentController.java)
 
-#### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
 ```java
   //Inyeccion de dependencias manual
 private StudentService studentService;
